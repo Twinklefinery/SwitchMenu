@@ -1,0 +1,8 @@
+*.pyc                 # Excludes all files with the .pyc extension in the directory.
+
+__pycache__/          # Excludes the entire __pycache__ directory.
+
+venv/                 # Excludes the virtual environment folder if using `python -m venv`.
+
+./directory/*.png     # Excludes all .png files within the specified directory.
+
